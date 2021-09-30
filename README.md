@@ -26,6 +26,31 @@ On OS X and Linux, prefixing the npm command with sudo may be necessary to insta
 
 The -g flag above tells npm to install cordova globally. Otherwise it will be installed in the node_modules subdirectory of the current working directory.
 
+# Install Gradle
+Download the latest [Gradle](https://gradle.org/releases/) distribution
+
+* On Windows
+1. Unpack the distribution Create a new directory `C:\Gradle` with File Explorer.
+
+Open a second File Explorer window and go to the directory where the Gradle distribution was downloaded. Double-click the ZIP archive to expose the content. Drag the content folder `gradle-[VERSION]` to your newly created C:\Gradle folder.
+
+Alternatively you can unpack the Gradle distribution ZIP into `C:\Gradle` using an archiver tool of your choice.
+
+2. Configure your system environment
+In File Explorer right-click on the This PC (or Computer) icon, then click *Properties -> Advanced System Settings -> Environmental Variables*.
+Under System Variables select Path, then click Edit. Add an entry for `C:\Gradle\gradle-4.1\bin`. Click OK to save.
+
+3. Verify your installation
+Open a console (or a Windows command prompt) and run below command to run Gradle and display the version, e.g.:
+
+`gradle -v`
+
+* On Linux & MacOS
+1. Untar **Gradle** in the right directory (**This step must be improved**).
+2. Configure your PATH environment variable to include the bin directory of the unzipped distribution, e.g.:
+
+`export PATH=$PATH:/opt/gradle/gradle-4.1/bin`
+
 # Create the App
 1. Clone this repository
 
