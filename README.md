@@ -1,9 +1,10 @@
 # ArmBot_Javascript
-This project aims to focus on the HMI of the ArmBot. HMI is a web app, developped in the Javascript language, using Cordova framework in order to build for both Android and IOS.
+This project aims to focus on the HMI of the ArmBot. HMI is a web app, developped in the Javascript language, using **Cordova** framework in order to build for both **Android** and **IOS**.
 
 # Prerequisites
-**NodeJS** is mandatory in order to use Apache Cordova framework.
-Basic knowledge of javascript and OOP.
+**NodeJS** is mandatory in order to use **Apache Cordova** framework.
+
+Basic knowledge of Javascript and OOP.
 
 # Install NodeJS and Cordova library
 1. Download and install [Node.js](https://nodejs.org/en/download/). On installation you should be able to invoke **node** and **npm** on your command line.
@@ -41,7 +42,8 @@ The -g flag above tells npm to install cordova globally. Otherwise it will be in
 
 `npm install`
 
-6. Using your favorite IDE, you can code in `www` folder
+6. Using your favorite IDE, you can code in `www` folder.
+
 Only work done in this folder and config files `config.xml` `package.json` must be pushed on this repository.
 
 
