@@ -4,6 +4,10 @@ This project aims to focus on the HMI of the ArmBot. HMI is a web app, developpe
 # Prerequisites
 **NodeJS** is mandatory in order to use **Apache Cordova** framework.
 
+**Android Studio** for **SDK manager**.
+
+**Gradle**
+
 Basic knowledge of Javascript and OOP.
 
 # Install NodeJS and Cordova library
