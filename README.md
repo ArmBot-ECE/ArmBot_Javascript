@@ -14,6 +14,7 @@ Basic knowledge of Javascript and OOP.
 # Install JDK8
 1. Check if you have a JDK version 8+ installed on your machine by running command `java -version`
 2. If none is installed or you want to install a proper JDK8 with a commercial license, go online, you'll find plenty of tutorials.
+3. Don't forget to setup yout JRE_HOME and JAVA_HOME environment variables.
 
 # Install NodeJS and Cordova library
 1. Download and install [Node.js](https://nodejs.org/en/download/). On installation you should be able to invoke **node** and **npm** on your command line.
