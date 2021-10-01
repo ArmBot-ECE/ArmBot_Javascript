@@ -2,6 +2,7 @@
 This project aims to focus on the HMI of the ArmBot. HMI is a web app, developped in the Javascript language, using **Cordova** framework in order to build for both **Android** and **IOS**.
 
 # Prerequisites
+**JDK8**.
 **NodeJS** is mandatory in order to use **Apache Cordova** framework.
 
 **Android Studio** for **SDK manager**.
@@ -9,6 +10,10 @@ This project aims to focus on the HMI of the ArmBot. HMI is a web app, developpe
 **Gradle**
 
 Basic knowledge of Javascript and OOP.
+
+# Install JDK8
+1. Check if you have a JDK version 8+ installed on your machine by running command `java -version`
+2. If none is installed or you want to install a proper JDK8 with a commercial license, go online, you'll find plenty of tutorials.
 
 # Install NodeJS and Cordova library
 1. Download and install [Node.js](https://nodejs.org/en/download/). On installation you should be able to invoke **node** and **npm** on your command line.
@@ -46,10 +51,19 @@ Open a console (or a Windows command prompt) and run below command to run Gradle
 `gradle -v`
 
 * On Linux & MacOS
-1. Untar **Gradle** in the right directory (**This step must be improved**).
-2. Configure your PATH environment variable to include the bin directory of the unzipped distribution, e.g.:
 
+1. Unzip the distribution zip file in the directory of your choosing, e.g.:
+```
+mkdir /opt/gradle
+unzip -d /opt/gradle gradle-7.2-bin.zip
+ls /opt/gradle/gradle-7.2
+```
+
+2. Configure your PATH environment variable to include the bin directory of the unzipped distribution, e.g.:
+Open your `.bashrc` file, and write this line:
 `export PATH=$PATH:/opt/gradle/gradle-4.1/bin`
+
+For OS X you might need to do: `export PATH=$PATH:/opt/gradle/gradle-4.1/bin` in a terminal.
 
 # Create the App
 1. Clone this repository
