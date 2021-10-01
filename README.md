@@ -17,6 +17,9 @@ Basic knowledge of Javascript and OOP.
 
 # Install NodeJS and Cordova library
 1. Download and install [Node.js](https://nodejs.org/en/download/). On installation you should be able to invoke **node** and **npm** on your command line.
+
+For CentOS: [Installation guide](https://matthiashoys.wordpress.com/2020/01/15/how-to-upgrade-node-js-from-v6-to-v12-on-centos-linux-7/)
+
 2. Download and install a [git client](http://git-scm.com/downloads), if you don't already have one. Following installation, you should be able to invoke **git** on your command line.
 3. Install the **Cordova** module using **npm** utility of Node.js. The cordova module will automatically be downloaded by the npm utility.
 * On OS X and Linux
