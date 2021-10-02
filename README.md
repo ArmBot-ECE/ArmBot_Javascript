@@ -79,6 +79,7 @@ For OS X you might need to do: `export PATH=$PATH:/opt/gradle/gradle-4.1/bin` in
 6. Setup **ANDROID_SDK_ROOT** as `/opt/android/`
 7. Add to **PATH** `$ANDROID_SDK_ROOT/cmdline-tools/latest/bin`
 8. Test install by running `sdkmanager --version`
+9. Set yourself the right role with command `sudo chown $USER:$USER $ANDROID_SDK_ROOT -R`
 
 * On Windows
 Part coming...
@@ -107,5 +108,18 @@ Part coming...
 
 Only work done in this folder and config files `config.xml` `package.json` must be pushed on this repository.
 
+# Add platform
+1. Your can add specific platform for your app, such as Android or IOS version and also browser platform
 
+`cordova platform add <platform>`
+
+# Build the App
+1. Build the app with `cordova build <platform>`
+
+# Run the App
+1. Run your app with `cordova run <platform>`
+
+Start with the browser platform when coding and testing: `cordova run browser`
+
+This command will open your default browser and run your app as a localhost.
 
