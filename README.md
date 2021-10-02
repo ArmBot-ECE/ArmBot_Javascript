@@ -69,6 +69,9 @@ Open your `.bashrc` file, and write this line:
 
 For OS X you might need to do: `export PATH=$PATH:/opt/gradle/gradle-4.1/bin` in a terminal.
 
+# Instal SDKmanager
+1. Install **Command line tools only** on [Android SDK Downloads](https://developer.android.com/studio/#downloads)
+
 # Create the App
 1. Clone this repository
 
