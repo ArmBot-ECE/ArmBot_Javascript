@@ -71,6 +71,7 @@ For OS X you might need to do: `export PATH=$PATH:/opt/gradle/gradle-4.1/bin` in
 
 # Instal SDKmanager
 1. Install **Command line tools only** on [Android SDK Downloads](https://developer.android.com/studio/#downloads)
+2. Setup **SDKROOT** environment variable
 
 # Create the App
 1. Clone this repository
