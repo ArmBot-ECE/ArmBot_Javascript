@@ -123,3 +123,8 @@ Start with the browser platform when coding and testing: `cordova run browser`
 
 This command will open your default browser and run your app as a localhost.
 
+# Download SDK
+You can download specific SDK (corresponding to a Android version) in order to emulate your app, or to build it in a specific Android/IOS version.
+
+`sdkmanager "platform-tools" "platforms;android-28"`
+
