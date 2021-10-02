@@ -80,6 +80,8 @@ For OS X you might need to do: `export PATH=$PATH:/opt/gradle/gradle-4.1/bin` in
 7. Add to **PATH** `$ANDROID_SDK_ROOT/cmdline-tools/latest/bin`
 8. Test install by running `sdkmanager --version`
 9. Set yourself the right role with command `sudo chown $USER:$USER $ANDROID_SDK_ROOT -R`
+10. Fetch extra repositories `sdkmanager "extras;google;m2repository" "extras;android;m2repository"`
+11. Accept all licenses `sdkmanager --licenses`
 
 * On Windows
 Part coming...
@@ -126,5 +128,5 @@ This command will open your default browser and run your app as a localhost.
 # Download SDK
 You can download specific SDK (corresponding to a Android version) in order to emulate your app, or to build it in a specific Android/IOS version.
 
-`sdkmanager "platform-tools" "platforms;android-28"`
+`sdkmanager "build-tools;28" "platforms;android-28"`
 
