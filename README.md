@@ -75,7 +75,7 @@ For OS X you might need to do: `export PATH=$PATH:/opt/gradle/gradle-4.1/bin` in
 2. Install **Command line tools only** from [Android SDK Downloads](https://developer.android.com/studio/#downloads) in `/opt/android/`
 3. Create directory `latest` in `/opt/android/cmdline-tools/`
 4. Move folder `bin`, `lib` and files `NOTICE.txt`, `source.properties` in folder `/opt/android/cmdline-tools/latest`
-5. **(Optional)** Install **Platform tools** from [Android Platform tools Downloads](https://developer.android.com/studio/releases/platform-tools) in `/opt/android/`
+5. Install **Platform tools** from [Android Platform tools Downloads](https://developer.android.com/studio/releases/platform-tools) in `/opt/android/`
 6. Setup **ANDROID_SDK_ROOT** as `/opt/android/`
 7. Add to **PATH** `$ANDROID_SDK_ROOT/cmdline-tools/latest/bin`
 8. Test install by running `sdkmanager --version`
@@ -84,7 +84,10 @@ For OS X you might need to do: `export PATH=$PATH:/opt/gradle/gradle-4.1/bin` in
 11. Accept all licenses `sdkmanager --licenses`
 
 * On Windows
-Part coming...
+1. Install **Command line tools only** from [Android SDK Downloads](https://developer.android.com/studio/#downloads)
+2. Install **Platform tools** from [Android Platform tools Downloads](https://developer.android.com/studio/releases/platform-tools)
+3. Setup **ANDROID_SDK_ROOT** as `C:\Users\<user>\AppData\Local\Android\Sdk`
+7. Add to **PATH** `C:\Users\<user>\AppData\Local\Android\Sdk\tools\bin`
 
 # Create the App
 1. Clone this repository
